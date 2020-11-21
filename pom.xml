@@ -46,7 +46,11 @@
 		</dependency>
 	</dependencies>
 
-	<profile>
+	
+
+	<build>
+		<finalName>app</finalName>
+		<profile>
 			<!-- When built in OpenShift the 'openshift' profile will be used when 
 				invoking mvn. -->
 			<!-- Use this profile for any OpenShift specific customization your app 
@@ -68,9 +72,6 @@
 				</plugins>
 			</build>
 		</profile>
-
-	<build>
-		<finalName>app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
