@@ -1,2 +1,2 @@
-FROM java:1.8
+FROM openjdk:alpine
 ENTRYPOINT ["java","-jar","app.jar"]
