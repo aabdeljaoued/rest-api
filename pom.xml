@@ -19,9 +19,12 @@
 	</properties>
 
 	  <scm>
-    		<connection>scm:git:https://github.com/aabdeljaoued/rest-api.git</connection>
-    		<developerConnection>scm:git:https://github.com/aabdeljaoued/rest-api.git</developerConnection>
+		<url>https://github.com/aabdeljaoued/rest-api</url>
+		<connection>scm:git:git:https://github.com/aabdeljaoued/rest-api.git</connection>
+		<developerConnection>scm:git:ssh://git:https://github.com/aabdeljaoued/rest-api.git</developerConnection>
   	 </scm>
+	
+	
 	
 	<profiles>
     <profile>
