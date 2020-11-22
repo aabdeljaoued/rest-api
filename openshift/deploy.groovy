@@ -1,1 +1,8 @@
-#my first groovy file
+stage('Check out'){
+
+}
+
+stage('build'){
+    
+}
+
